@@ -17,5 +17,4 @@ reader.on("close", () => {
   replaceItem(splitted, '0', '10')
   const result = splitted.map(str => parseInt(str, 10)).reduce((a, c) => a + c)
   console.log(result);
-
 });
